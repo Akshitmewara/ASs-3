@@ -86,6 +86,7 @@ def create_user_clicked():
     create_user_window.geometry("400x400")
     create_user_window.config(bg="#F0F0F0", padx=20, pady=20)
     create_user_window.title("Create AkkiHub Account")
+    #will redirect to this screen
 
     # Username
     username_label = Label(create_user_window, text="Username:", font=("Arial", 12))
